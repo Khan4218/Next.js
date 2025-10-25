@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import PrintForgeLogo from "@/public/printforge-logo.svg"
 import PrintForgeLogoIcon from "@/public/printforge-logo-icon.svg"
+import { RootLayoutProps } from "./types";
 
 
 const albertSans = Albert_Sans({
@@ -18,11 +19,7 @@ const montserratAlternates = Montserrat_Alternates({
   variable: "--font-montserrat-alternates"
 })
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children,}:RootLayoutProps) {
   return (
     <html lang="en">
       <body className={`${albertSans.className} ${montserratAlternates.variable}`}>
