@@ -1,3 +1,5 @@
+import "./global.css"
+import Link from 'next/link'
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -6,12 +8,13 @@ export default function RootLayout({ children }) {
        <header>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>add</li>
+            <li><Link href="/">Home</Link></li>
+            <li> <Link href="/about">About</Link></li>
+            <li> <Link href="/products">Products</Link></li>
           </ul>
         </nav>
        </header>
-        {children}
+        <main>{children}</main>
       <footer>This is a footer</footer>
       </body>
     </html>
