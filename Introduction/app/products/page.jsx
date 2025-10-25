@@ -1,3 +1,9 @@
-export default function () {
-    return <h1>This is a products page</h1>
+export default async function () {
+    const res = await fetch("https://jsonplaceholder.typicode.com/posts")
+    const data = await res.json()
+    return (
+        <pre>
+            {JSON.stringify(data, null, 2)}
+        </pre>
+    )
 }
