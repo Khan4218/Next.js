@@ -40,6 +40,10 @@ a:active {
   text-decoration: none;
 }
 
+a.is-active {
+  text-decoration: underline;
+}
+
 footer {
   background-color: #27272a;
   color: #f4f4f5;

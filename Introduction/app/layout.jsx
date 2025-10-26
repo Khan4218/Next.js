@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar"
 import "./global.css"
 import Link from 'next/link'
 export default function RootLayout({ children }) {
@@ -6,14 +7,7 @@ export default function RootLayout({ children }) {
      
       <body>
        <header>
-        <nav>
-          <ul>
-            <li><Link href="/">Home</Link></li>
-            <li> <Link href="/about">About</Link></li>
-            <li> <Link href="/products">Products</Link></li>
-            <li><Link href="/posts">Posts</Link></li>
-          </ul>
-        </nav>
+        <Navbar />
        </header>
         <main>{children}</main>
       <footer>This is a footer</footer>
