@@ -31,6 +31,13 @@ export type ModelDetailPageProps = {
     }>
 }
 
+// Page Types
+export type CategoryPageProps = {
+    params: Promise<{
+        categoryName: string
+    }>
+}
+
 // Components Types
 export type ModelCardProps = {
     model: Model
