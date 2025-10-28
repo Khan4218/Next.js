@@ -1,7 +1,10 @@
+"use client"
+
 import Navbar from "./components/Navbar"
 import "./global.css"
-import Link from 'next/link'
+
 export default function RootLayout({ children }) {
+  console.log("RootLayout:", `${typeof window === "undefined" ? "Server" : "Client"} component`)
   return (
     <html lang="en">
      
