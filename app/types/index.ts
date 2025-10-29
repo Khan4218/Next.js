@@ -9,6 +9,7 @@ export type Model = {
     image: string
     category: string
     dateAdded: string
+    title?: string
 }
 
 export type Category = {

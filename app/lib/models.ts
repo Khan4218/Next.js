@@ -1,29 +1,50 @@
 import modelsData from "../data/models.json"
 import type { Model } from "../types"
 import { GetModelsParams } from "../types"
+import { getImages } from "@/app/lib/getImages"  // import the Pexels helper
 
 export async function getModels({ category }: GetModelsParams = {}): Promise<Model[]> {
-  // This is where you'd write code to fetch the list
-  // of models from a database. We're mocking that with
-  // our JSON array of data in models.json for now.
+  // Copy the models
   let filteredModels = [...modelsData]
+
+  // Filter by category if needed
   if (category) {
     filteredModels = modelsData.filter(
       (model: Model) => model.category === category
     )
   }
-  return filteredModels
+
+  // Fetch one image for each model (based on its name or description)
+  const modelsWithImages = await Promise.all(
+    filteredModels.map(async (model) => {
+      // Force 3D-related query to avoid celebrity photos
+      const query = `${model.name || model.description} 3d render object`
+      const images = await getImages(query, 1)
+      return {
+        ...model,
+        image: images[0] || model.image || "/placeholder.png",
+      }
+    })
+  )
+
+  // ✅ you were missing this return and closing bracket
+  return modelsWithImages
 }
 
+
 export async function getModelById(id: string | number): Promise<Model> {
-  // These functions don't technically need to be async functions,
-  // but we're planning for the future when they'll be fetching
-  // from a real data source.
   const foundModel = modelsData.find(
     (model: Model) => model.id.toString() === id.toString()
   )
   if (!foundModel) {
     throw new Error(`Model with id ${id} not found`)
   }
-  return foundModel
+
+  // Fetch a single image for this model
+  const query = foundModel.name || foundModel.description || "3d model"
+  const images = await getImages(query, 1)
+  return {
+    ...foundModel,
+    image: images[0] || foundModel.image || "/placeholder.png",
+  }
 }
