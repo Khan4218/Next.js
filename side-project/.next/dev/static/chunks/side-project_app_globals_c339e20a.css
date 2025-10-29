@@ -1,0 +1,124 @@
+/* [project]/side-project/app/globals.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #93c5fd;
+  --primary-light: #bfdbfe;
+  --background: #e0f2fe;
+  --text: #1e3a8a;
+  --card-bg: #fff;
+  --card-shadow: 0 4px 6px -1px #0000001a;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+.page {
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  display: flex;
+}
+
+.main {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  color: #1e40af;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+}
+
+.fact-card {
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
+  border: 2px solid var(--primary-light);
+  border-radius: .75rem;
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.fact-card:before {
+  content: "\"";
+  color: #1e3a8a;
+  opacity: .3;
+  font-size: 3rem;
+  position: absolute;
+  top: -.75rem;
+  left: .75rem;
+}
+
+.fact-text {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.source {
+  color: #1e40af;
+  opacity: .9;
+  margin-bottom: .5rem;
+  font-size: .875rem;
+  font-style: italic;
+}
+
+.timestamp {
+  color: #1e40af;
+  background: var(--background);
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+  padding: .5rem;
+  font-family: monospace;
+  font-size: .875rem;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding: 2rem;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .fact-card {
+    border-radius: 1rem;
+    margin: 2rem 0;
+    padding: 2rem;
+  }
+
+  .fact-card:before {
+    font-size: 4rem;
+    top: -1rem;
+    left: 1rem;
+  }
+
+  .fact-text {
+    font-size: 1.25rem;
+  }
+}
+
+/*# sourceMappingURL=side-project_app_globals_c339e20a.css.map*/

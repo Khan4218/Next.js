@@ -1,0 +1,3 @@
+module.exports=[19099,a=>{a.n(a.i(42391))},43619,a=>{a.n(a.i(79962))},13718,a=>{a.n(a.i(85523))},18198,a=>{a.n(a.i(45518))},26741,a=>{"use strict";var b=a.i(7997);async function c(){return{fact:"Cats step with both left legs, then both right legs when they walk or run."}}async function d(){let a=await c();return(0,b.jsx)("div",{className:"page",children:(0,b.jsxs)("main",{className:"main",children:[(0,b.jsx)("h1",{children:"🐈‍⬛ Cat Facts 🐈"}),(0,b.jsx)("div",{className:"fact-card",children:(0,b.jsx)("p",{className:"fact-text",children:a.fact})})]})})}a.s(["default",()=>d,"dynamic",0,"force-dynamic"])}];
+
+//# sourceMappingURL=_9d6e5fb1._.js.map

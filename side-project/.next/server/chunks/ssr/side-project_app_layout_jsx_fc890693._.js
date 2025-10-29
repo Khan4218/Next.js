@@ -1,0 +1,3 @@
+module.exports=[42391,a=>{"use strict";var b=a.i(7997);function c({children:a}){return(0,b.jsxs)("html",{lang:"en",children:[(0,b.jsx)("head",{children:(0,b.jsx)("link",{rel:"icon",href:"/favicon.svg",type:"image/svg+xml"})}),(0,b.jsx)("body",{children:a})]})}a.s(["default",()=>c,"metadata",0,{title:"Cat Facts",description:"A fun app for learning about cats using the Cat Facts API!"}])}];
+
+//# sourceMappingURL=side-project_app_layout_jsx_fc890693._.js.map
