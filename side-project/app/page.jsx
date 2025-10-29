@@ -1,8 +1,10 @@
-export const dynamic = "force-dynamic"
+// export const dynamic = "force-dynamic"
 async function getCatFact() {
-    return {
-        fact: "Cats step with both left legs, then both right legs when they walk or run."
-    }
+
+    const res = await fetch("https://catfact.ninja/fact", {cache: "no-store"})
+    const data = await res.json()
+     
+   return data
 }
 
 export default async function Home() {

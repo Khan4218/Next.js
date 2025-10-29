@@ -12,6 +12,7 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/side-project/app/layo
 "[project]/side-project/app/page.jsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// export const dynamic = "force-dynamic"
 __turbopack_context__.s([
     "default",
     ()=>Home
@@ -19,9 +20,11 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 ;
 async function getCatFact() {
-    return {
-        fact: "Cats step with both left legs, then both right legs when they walk or run."
-    };
+    const res = await fetch("https://catfact.ninja/fact", {
+        cache: "no-store"
+    });
+    const data = await res.json();
+    return data;
 }
 async function Home() {
     const catFact = await getCatFact();
@@ -34,7 +37,7 @@ async function Home() {
                     children: "🐈‍⬛ Cat Facts 🐈"
                 }, void 0, false, {
                     fileName: "[project]/side-project/app/page.jsx",
-                    lineNumber: 13,
+                    lineNumber: 16,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -44,23 +47,23 @@ async function Home() {
                         children: catFact.fact
                     }, void 0, false, {
                         fileName: "[project]/side-project/app/page.jsx",
-                        lineNumber: 15,
+                        lineNumber: 18,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/side-project/app/page.jsx",
-                    lineNumber: 14,
+                    lineNumber: 17,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/side-project/app/page.jsx",
-            lineNumber: 12,
+            lineNumber: 15,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/side-project/app/page.jsx",
-        lineNumber: 11,
+        lineNumber: 14,
         columnNumber: 9
     }, this);
 }
