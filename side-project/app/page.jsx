@@ -4,21 +4,34 @@ async function getCatFacts() {
     return data.data
 }
 
-export default async function Home() {
+export default async function Home({ searchParams }) {
+    const { query } = await searchParams
     const catFacts = await getCatFacts()
+
+    const filteredFacts = query
+        ? catFacts.filter(obj => obj.fact.toLowerCase().includes(query.toLowerCase()))
+        : catFacts
 
     return (
         <div className="page">
             <main className="main">
                 <h1>🐈‍⬛ Cat Facts 🐈</h1>
-
-                {/** search form here */}
-                <form >
-                   <input type="text" name="search" placeholder="Search"></input>
+                <form className="search-form">
+                    <label htmlFor="cat-fact-query" className="sr-only">
+                        Search cat facts
+                    </label>
+                    <input
+                        type="search"
+                        id="cat-fact-query"
+                        name="query"
+                        placeholder="Search cat facts..."
+                        className="search-input"
+                        autoComplete="off"
+                        defaultValue={query}
+                    />
                 </form>
-
                 <div className="facts-list">
-                    {catFacts.map((fact, index) => (
+                    {filteredFacts.map((fact, index) => (
                         <div key={index} className="fact-card">
                             <p className="fact-text">{fact.fact}</p>
                         </div>

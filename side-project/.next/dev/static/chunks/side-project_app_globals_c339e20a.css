@@ -50,14 +50,54 @@ h1 {
   font-size: 1.75rem;
 }
 
+.search-form {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-input {
+  border: 2px solid var(--primary-light);
+  background-color: var(--card-bg);
+  width: 100%;
+  color: var(--text);
+  border-radius: .5rem;
+  padding: .75rem 1rem;
+  font-size: 1rem;
+  transition: border-color .2s, box-shadow .2s;
+}
+
+.search-input:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 0 0 3px #93c5fd4d;
+}
+
+.search-input::placeholder {
+  color: #94a3b8;
+}
+
+.facts-list {
+  gap: 1rem;
+  margin-top: 1rem;
+  display: grid;
+}
+
 .fact-card {
   background: var(--card-bg);
   box-shadow: var(--card-shadow);
   border: 2px solid var(--primary-light);
   border-radius: .75rem;
-  margin: 1.5rem 0;
   padding: 1.5rem;
+  transition: transform .2s, box-shadow .2s;
   position: relative;
+}
+
+.fact-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px -2px #00000026;
 }
 
 .fact-card:before {
@@ -71,8 +111,9 @@ h1 {
 }
 
 .fact-text {
-  margin-bottom: 1rem;
+  color: var(--text);
   font-size: 1.125rem;
+  line-height: 1.6;
 }
 
 .source {
@@ -104,9 +145,13 @@ h1 {
     font-size: 2.5rem;
   }
 
+  .facts-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
   .fact-card {
     border-radius: 1rem;
-    margin: 2rem 0;
     padding: 2rem;
   }
 
@@ -119,6 +164,18 @@ h1 {
   .fact-text {
     font-size: 1.25rem;
   }
+}
+
+.sr-only {
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=side-project_app_globals_c339e20a.css.map*/
