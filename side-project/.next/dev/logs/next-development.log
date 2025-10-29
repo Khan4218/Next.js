@@ -1,4 +1,20 @@
-[00:00:02.065] Server  LOG      ✓ Ready in 1442ms
-[00:00:05.177] Server  LOG      ○ Compiling / ...
-[00:00:10.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.005] Server  LOG      ✓ Ready in 3.1s
+[00:00:18.668] Server  LOG      ○ Compiling / ...
+[00:00:27.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:07.870] Server  LOG      ✓ Compiled in 27ms
+[00:01:13.711] Server  LOG      ✓ Compiled in 21ms
+[00:01:40.738] Server  LOG      ✓ Compiled in 31ms
+[00:01:50.249] Server  LOG      ✓ Compiled in 28ms
+[00:01:53.472] Server  LOG      ✓ Compiled in 13ms
+[00:01:59.277] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:48.150] Server  LOG      ✓ Compiled in 13ms
+[00:03:08.267] Server  LOG      ✓ Compiled in 20ms
+[00:03:08.558] Server  ERROR    ⨯ ReferenceError: type is not defined
+[00:03:08.830] Browser ERROR   uncaughtError: ReferenceError: type is not defined
+[00:03:16.885] Server  LOG      ✓ Compiled in 25ms
+[00:03:18.970] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:37.526] Server  LOG      ✓ Compiled in 40ms
+[00:03:50.251] Server  LOG      ✓ Compiled in 13ms
+[00:04:11.560] Server  LOG      ✓ Compiled in 34ms
+[00:04:39.261] Server  LOG      ✓ Compiled in 18ms
+[00:05:03.798] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
