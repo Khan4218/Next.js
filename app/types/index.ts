@@ -2,13 +2,13 @@ import type { ReactNode } from "react"
 
 // Data Types
 export type Model = {
-  id: number
-  name: string
-  description: string
-  likes: number
-  image: string
-  category: string
-  dateAdded: string
+    id: number
+    name: string
+    description: string
+    likes: number
+    image: string
+    category: string
+    dateAdded: string
 }
 
 export type Category = {
@@ -20,21 +20,24 @@ export type CategoriesData = {
     categories: Category[]
 }
 
-// Page Types
-export type RootLayoutProps = Readonly<{
-  children: React.ReactNode;
-}>
-
-export type ModelDetailPageProps = {
-    params: Promise<{
-        id: string
-    }>
+export type GetModelsParams = {
+    category?: string
 }
 
 // Page Types
 export type CategoryPageProps = {
     params: Promise<{
         categoryName: string
+    }>
+}
+
+export type RootLayoutProps = Readonly<{
+    children: React.ReactNode;
+}>
+
+export type ModelDetailPageProps = {
+    params: Promise<{
+        id: string
     }>
 }
 
@@ -53,9 +56,8 @@ export type PillProps = {
     className?: string
 }
 
-//NavLink Types
 export type NavLinkProps = {
     href: string
     children: ReactNode
-    isActive : boolean
+    isActive?: boolean
 }
