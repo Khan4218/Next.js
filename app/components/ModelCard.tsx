@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import { FaRegHeart } from "react-icons/fa6"
 import Pill from "./Pill"
@@ -14,9 +16,12 @@ export default function ModelCard({ model }: ModelCardProps) {
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg" role="article">
                 <div className="relative aspect-square">
                     <img
-                        src={placeholderImg.src}
+                        src={model.image || placeholderImg.src}
                         alt={model.name}
-                        className="absolute inset-0 object-cover w-full h-full"
+                        className="absolute inset-0 object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
+                        onError={(e) => {
+                            e.currentTarget.src = placeholderImg.src
+                        }}
                     />
                 </div>
                 <div className="p-4">

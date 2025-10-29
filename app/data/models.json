@@ -1,470 +1,470 @@
 [
-    {
-        "id": 1,
-        "name": "Articulated Dragon",
-        "description": "A detailed dragon model with movable joints and wings",
-        "likes": 1847,
-        "image": "https://place-hold.it/300",
-        "category": "toys-games",
-        "dateAdded": "2023-03-15T14:30:00Z"
-    },
-    {
-        "id": 2,
-        "name": "Succulent Planter",
-        "description": "Geometric planter perfect for small succulents",
-        "likes": 456,
-        "image": "https://place-hold.it/300",
-        "category": "household",
-        "dateAdded": "2023-06-22T09:15:00Z"
-    },
-    {
-        "id": 3,
-        "name": "Cosplay Helmet",
-        "description": "Sci-fi inspired helmet for costume making",
-        "likes": 1253,
-        "image": "https://place-hold.it/300",
-        "category": "props-cosplay",
-        "dateAdded": "2023-09-05T16:45:00Z"
-    },
-    {
-        "id": 4,
-        "name": "Educational Solar System",
-        "description": "Scale model of the solar system for classroom use",
-        "likes": 892,
-        "image": "https://place-hold.it/300",
-        "category": "education",
-        "dateAdded": "2023-11-30T11:20:00Z"
-    },
-    {
-        "id": 5,
-        "name": "Abstract Sculpture",
-        "description": "Modern art piece with flowing curves",
-        "likes": 345,
-        "image": "https://place-hold.it/300",
-        "category": "art",
-        "dateAdded": "2024-01-18T13:40:00Z"
-    },
-    {
-        "id": 6,
-        "name": "Tool Holder",
-        "description": "Customizable holder for workshop tools",
-        "likes": 567,
-        "image": "https://place-hold.it/300",
-        "category": "tools",
-        "dateAdded": "2024-03-07T10:25:00Z"
-    },
-    {
-        "id": 7,
-        "name": "Fantasy Miniature",
-        "description": "Detailed warrior miniature for tabletop gaming",
-        "likes": 1456,
-        "image": "https://place-hold.it/300",
-        "category": "miniatures",
-        "dateAdded": "2024-05-12T15:50:00Z"
-    },
-    {
-        "id": 8,
-        "name": "Bracelet Maker",
-        "description": "Tool for creating custom jewelry",
-        "likes": 234,
-        "image": "https://place-hold.it/300",
-        "category": "fashion",
-        "dateAdded": "2024-07-25T08:35:00Z"
-    },
-    {
-        "id": 9,
-        "name": "Printer Upgrade Kit",
-        "description": "Enhancement parts for 3D printer performance",
-        "likes": 1789,
-        "image": "https://place-hold.it/300",
-        "category": "3d-printer",
-        "dateAdded": "2024-09-14T12:15:00Z"
-    },
-    {
-        "id": 10,
-        "name": "Garden Tool Set",
-        "description": "Collection of tools for gardening enthusiasts",
-        "likes": 445,
-        "image": "https://place-hold.it/300",
-        "category": "hobby-diy",
-        "dateAdded": "2024-11-03T17:40:00Z"
-    },
-    {
-        "id": 11,
-        "name": "Chess Set",
-        "description": "Modern interpretation of classic chess pieces",
-        "likes": 1234,
-        "image": "https://place-hold.it/300",
-        "category": "toys-games",
-        "dateAdded": "2023-02-28T14:20:00Z"
-    },
-    {
-        "id": 12,
-        "name": "Wall Organizer",
-        "description": "Modular system for wall storage",
-        "likes": 678,
-        "image": "https://place-hold.it/300",
-        "category": "household",
-        "dateAdded": "2023-05-17T11:30:00Z"
-    },
-    {
-        "id": 13,
-        "name": "Prop Sword",
-        "description": "Fantasy sword for costume play",
-        "likes": 1567,
-        "image": "https://place-hold.it/300",
-        "category": "props-cosplay",
-        "dateAdded": "2023-08-09T16:05:00Z"
-    },
-    {
-        "id": 14,
-        "name": "Molecular Model",
-        "description": "Educational model of molecular structures",
-        "likes": 789,
-        "image": "https://place-hold.it/300",
-        "category": "education",
-        "dateAdded": "2023-10-22T09:45:00Z"
-    },
-    {
-        "id": 15,
-        "name": "Geometric Wall Art",
-        "description": "Decorative wall panels with geometric patterns",
-        "likes": 890,
-        "image": "https://place-hold.it/300",
-        "category": "art",
-        "dateAdded": "2024-01-05T15:25:00Z"
-    },
-    {
-        "id": 16,
-        "name": "Screwdriver Set",
-        "description": "Custom handles for precision screwdrivers",
-        "likes": 432,
-        "image": "https://place-hold.it/300",
-        "category": "tools",
-        "dateAdded": "2024-02-19T10:50:00Z"
-    },
-    {
-        "id": 17,
-        "name": "Dragon Miniature",
-        "description": "Detailed dragon for tabletop gaming",
-        "likes": 1678,
-        "image": "https://place-hold.it/300",
-        "category": "miniatures",
-        "dateAdded": "2024-04-30T13:15:00Z"
-    },
-    {
-        "id": 18,
-        "name": "Earring Collection",
-        "description": "Set of geometric earring designs",
-        "likes": 567,
-        "image": "https://place-hold.it/300",
-        "category": "fashion",
-        "dateAdded": "2024-06-14T08:40:00Z"
-    },
-    {
-        "id": 19,
-        "name": "Cooling System",
-        "description": "Enhanced cooling solution for 3D printers",
-        "likes": 1234,
-        "image": "https://place-hold.it/300",
-        "category": "3d-printer",
-        "dateAdded": "2024-08-27T12:55:00Z"
-    },
-    {
-        "id": 20,
-        "name": "Birdhouse Kit",
-        "description": "DIY birdhouse with modern design",
-        "likes": 789,
-        "image": "https://place-hold.it/300",
-        "category": "hobby-diy",
-        "dateAdded": "2024-10-11T17:20:00Z"
-    },
-    {
-        "id": 21,
-        "name": "Robot Toy",
-        "description": "Articulated robot with moving parts",
-        "likes": 1567,
-        "image": "https://place-hold.it/300",
-        "category": "toys-games",
-        "dateAdded": "2023-01-25T14:10:00Z"
-    },
-    {
-        "id": 22,
-        "name": "Kitchen Organizer",
-        "description": "Customizable drawer organization system",
-        "likes": 890,
-        "image": "https://place-hold.it/300",
-        "category": "household",
-        "dateAdded": "2023-04-08T11:35:00Z"
-    },
-    {
-        "id": 23,
-        "name": "Mask Template",
-        "description": "Base template for custom costume masks",
-        "likes": 1123,
-        "image": "https://place-hold.it/300",
-        "category": "props-cosplay",
-        "dateAdded": "2023-07-21T16:00:00Z"
-    },
-    {
-        "id": 24,
-        "name": "DNA Model",
-        "description": "Educational DNA double helix model",
-        "likes": 678,
-        "image": "https://place-hold.it/300",
-        "category": "education",
-        "dateAdded": "2023-09-30T09:25:00Z"
-    },
-    {
-        "id": 25,
-        "name": "Modern Vase",
-        "description": "Contemporary vase with unique patterns",
-        "likes": 445,
-        "image": "https://place-hold.it/300",
-        "category": "art",
-        "dateAdded": "2023-12-13T15:50:00Z"
-    },
-    {
-        "id": 26,
-        "name": "Wrench Set",
-        "description": "Custom sized wrench collection",
-        "likes": 987,
-        "image": "https://place-hold.it/300",
-        "category": "tools",
-        "dateAdded": "2024-02-26T10:15:00Z"
-    },
-    {
-        "id": 27,
-        "name": "Castle Miniature",
-        "description": "Detailed medieval castle for gaming",
-        "likes": 1789,
-        "image": "https://place-hold.it/300",
-        "category": "miniatures",
-        "dateAdded": "2024-04-09T13:40:00Z"
-    },
-    {
-        "id": 28,
-        "name": "Pendant Design",
-        "description": "Customizable pendant template",
-        "likes": 234,
-        "image": "https://place-hold.it/300",
-        "category": "fashion",
-        "dateAdded": "2024-06-22T08:05:00Z"
-    },
-    {
-        "id": 29,
-        "name": "Extruder Upgrade",
-        "description": "Enhanced extruder mechanism",
-        "likes": 1456,
-        "image": "https://place-hold.it/300",
-        "category": "3d-printer",
-        "dateAdded": "2024-08-05T12:30:00Z"
-    },
-    {
-        "id": 30,
-        "name": "Plant Stand",
-        "description": "Modern stand for indoor plants",
-        "likes": 567,
-        "image": "https://place-hold.it/300",
-        "category": "hobby-diy",
-        "dateAdded": "2024-10-18T17:55:00Z"
-    },
-    {
-        "id": 31,
-        "name": "Puzzle Cube",
-        "description": "Complex mechanical puzzle toy",
-        "likes": 1234,
-        "image": "https://place-hold.it/300",
-        "category": "toys-games",
-        "dateAdded": "2023-01-12T14:00:00Z"
-    },
-    {
-        "id": 32,
-        "name": "Bathroom Caddy",
-        "description": "Shower organization solution",
-        "likes": 678,
-        "image": "https://place-hold.it/300",
-        "category": "household",
-        "dateAdded": "2023-03-25T11:25:00Z"
-    },
-    {
-        "id": 33,
-        "name": "Armor Piece",
-        "description": "Detailed costume armor segment",
-        "likes": 1567,
-        "image": "https://place-hold.it/300",
-        "category": "props-cosplay",
-        "dateAdded": "2023-06-08T16:50:00Z"
-    },
-    {
-        "id": 34,
-        "name": "Atom Model",
-        "description": "Interactive atomic structure model",
-        "likes": 789,
-        "image": "https://place-hold.it/300",
-        "category": "education",
-        "dateAdded": "2023-08-21T09:15:00Z"
-    },
-    {
-        "id": 35,
-        "name": "Wall Sculpture",
-        "description": "Abstract wall mounted artwork",
-        "likes": 890,
-        "image": "https://place-hold.it/300",
-        "category": "art",
-        "dateAdded": "2023-11-04T15:40:00Z"
-    },
-    {
-        "id": 36,
-        "name": "Measuring Tool",
-        "description": "Precise measurement device",
-        "likes": 432,
-        "image": "https://place-hold.it/300",
-        "category": "tools",
-        "dateAdded": "2024-01-17T10:05:00Z"
-    },
-    {
-        "id": 37,
-        "name": "Fantasy Tree",
-        "description": "Detailed tree for miniature landscapes",
-        "likes": 1678,
-        "image": "https://place-hold.it/300",
-        "category": "miniatures",
-        "dateAdded": "2024-03-30T13:30:00Z"
-    },
-    {
-        "id": 38,
-        "name": "Ring Collection",
-        "description": "Customizable ring designs",
-        "likes": 567,
-        "image": "https://place-hold.it/300",
-        "category": "fashion",
-        "dateAdded": "2024-06-12T08:55:00Z"
-    },
-    {
-        "id": 39,
-        "name": "Print Fan",
-        "description": "Optimized cooling fan design",
-        "likes": 1234,
-        "image": "https://place-hold.it/300",
-        "category": "3d-printer",
-        "dateAdded": "2024-08-25T12:20:00Z"
-    },
-    {
-        "id": 40,
-        "name": "Tool Rack",
-        "description": "Wall-mounted tool organization system",
-        "likes": 789,
-        "image": "https://place-hold.it/300",
-        "category": "hobby-diy",
-        "dateAdded": "2024-11-08T17:45:00Z"
-    },
-    {
-        "id": 41,
-        "name": "Action Figure",
-        "description": "Poseable character figure",
-        "likes": 1567,
-        "image": "https://place-hold.it/300",
-        "category": "toys-games",
-        "dateAdded": "2023-02-01T14:35:00Z"
-    },
-    {
-        "id": 42,
-        "name": "Cable Manager",
-        "description": "Desk cable organization solution",
-        "likes": 890,
-        "image": "https://place-hold.it/300",
-        "category": "household",
-        "dateAdded": "2023-04-14T11:00:00Z"
-    },
-    {
-        "id": 43,
-        "name": "Prop Shield",
-        "description": "Fantasy shield for costumes",
-        "likes": 1123,
-        "image": "https://place-hold.it/300",
-        "category": "props-cosplay",
-        "dateAdded": "2023-07-27T16:25:00Z"
-    },
-    {
-        "id": 44,
-        "name": "Cell Model",
-        "description": "Detailed biological cell model",
-        "likes": 678,
-        "image": "https://place-hold.it/300",
-        "category": "education",
-        "dateAdded": "2023-10-10T09:50:00Z"
-    },
-    {
-        "id": 45,
-        "name": "Art Lamp",
-        "description": "Decorative lamp with unique design",
-        "likes": 445,
-        "image": "https://place-hold.it/300",
-        "category": "art",
-        "dateAdded": "2023-12-23T15:15:00Z"
-    },
-    {
-        "id": 46,
-        "name": "Precision Tool",
-        "description": "Fine detail work tool",
-        "likes": 987,
-        "image": "https://place-hold.it/300",
-        "category": "tools",
-        "dateAdded": "2024-03-07T10:40:00Z"
-    },
-    {
-        "id": 47,
-        "name": "Terrain Piece",
-        "description": "Detailed landscape for gaming",
-        "likes": 1789,
-        "image": "https://place-hold.it/300",
-        "category": "miniatures",
-        "dateAdded": "2024-05-20T14:05:00Z"
-    },
-    {
-        "id": 48,
-        "name": "Fashion Accessory",
-        "description": "Modern accessory design",
-        "likes": 234,
-        "image": "https://place-hold.it/300",
-        "category": "fashion",
-        "dateAdded": "2024-07-03T08:30:00Z"
-    },
-    {
-        "id": 49,
-        "name": "Printer Stand",
-        "description": "Stabilizing platform for 3D printers",
-        "likes": 1456,
-        "image": "https://place-hold.it/300",
-        "category": "3d-printer",
-        "dateAdded": "2024-09-16T12:55:00Z"
-    },
-    {
-        "id": 50,
-        "name": "Planter Box",
-        "description": "Modular garden planter system",
-        "likes": 567,
-        "image": "https://place-hold.it/300",
-        "category": "hobby-diy",
-        "dateAdded": "2024-11-29T17:20:00Z"
-    },
-    {
-        "id": 51,
-        "name": "Building Blocks",
-        "description": "Compatible construction toy set",
-        "likes": 1234,
-        "image": "https://place-hold.it/300",
-        "category": "toys-games",
-        "dateAdded": "2023-01-15T14:45:00Z"
-    },
-    {
-        "id": 52,
-        "name": "Shelf System",
-        "description": "Customizable shelving solution",
-        "likes": 678,
-        "image": "https://place-hold.it/300",
-        "category": "household",
-        "dateAdded": "2023-03-28T11:10:00Z"
-    }
+  {
+    "id": 1,
+    "name": "Model 1",
+    "description": "A unique 3D model featuring dragon.",
+    "likes": 200,
+    "image": "https://picsum.photos/seed/dragon/300",
+    "category": "toys-games",
+    "dateAdded": "2024-01-01T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Model 2",
+    "description": "A unique 3D model featuring planter.",
+    "likes": 223,
+    "image": "https://picsum.photos/seed/planter/300",
+    "category": "household",
+    "dateAdded": "2024-02-04T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Model 3",
+    "description": "A unique 3D model featuring helmet.",
+    "likes": 246,
+    "image": "https://picsum.photos/seed/helmet/300",
+    "category": "props-cosplay",
+    "dateAdded": "2024-03-07T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Model 4",
+    "description": "A unique 3D model featuring solar-system.",
+    "likes": 269,
+    "image": "https://picsum.photos/seed/solar-system/300",
+    "category": "education",
+    "dateAdded": "2024-04-10T10:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Model 5",
+    "description": "A unique 3D model featuring abstract.",
+    "likes": 292,
+    "image": "https://picsum.photos/seed/abstract/300",
+    "category": "art",
+    "dateAdded": "2024-05-13T10:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Model 6",
+    "description": "A unique 3D model featuring tools.",
+    "likes": 315,
+    "image": "https://picsum.photos/seed/tools/300",
+    "category": "tools",
+    "dateAdded": "2024-06-16T10:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Model 7",
+    "description": "A unique 3D model featuring miniature.",
+    "likes": 338,
+    "image": "https://picsum.photos/seed/miniature/300",
+    "category": "miniatures",
+    "dateAdded": "2024-07-19T10:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Model 8",
+    "description": "A unique 3D model featuring bracelet.",
+    "likes": 361,
+    "image": "https://picsum.photos/seed/bracelet/300",
+    "category": "fashion",
+    "dateAdded": "2024-08-22T10:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Model 9",
+    "description": "A unique 3D model featuring printer.",
+    "likes": 384,
+    "image": "https://picsum.photos/seed/printer/300",
+    "category": "3d-printer",
+    "dateAdded": "2024-09-25T10:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Model 10",
+    "description": "A unique 3D model featuring garden.",
+    "likes": 407,
+    "image": "https://picsum.photos/seed/garden/300",
+    "category": "hobby-diy",
+    "dateAdded": "2024-10-28T10:00:00Z"
+  },
+  {
+    "id": 11,
+    "name": "Model 11",
+    "description": "A unique 3D model featuring chess.",
+    "likes": 430,
+    "image": "https://picsum.photos/seed/chess/300",
+    "category": "toys-games",
+    "dateAdded": "2024-11-03T10:00:00Z"
+  },
+  {
+    "id": 12,
+    "name": "Model 12",
+    "description": "A unique 3D model featuring organizer.",
+    "likes": 453,
+    "image": "https://picsum.photos/seed/organizer/300",
+    "category": "household",
+    "dateAdded": "2024-12-06T10:00:00Z"
+  },
+  {
+    "id": 13,
+    "name": "Model 13",
+    "description": "A unique 3D model featuring sword.",
+    "likes": 476,
+    "image": "https://picsum.photos/seed/sword/300",
+    "category": "props-cosplay",
+    "dateAdded": "2024-01-09T10:00:00Z"
+  },
+  {
+    "id": 14,
+    "name": "Model 14",
+    "description": "A unique 3D model featuring molecule.",
+    "likes": 499,
+    "image": "https://picsum.photos/seed/molecule/300",
+    "category": "education",
+    "dateAdded": "2024-02-12T10:00:00Z"
+  },
+  {
+    "id": 15,
+    "name": "Model 15",
+    "description": "A unique 3D model featuring wall-art.",
+    "likes": 522,
+    "image": "https://picsum.photos/seed/wall-art/300",
+    "category": "art",
+    "dateAdded": "2024-03-15T10:00:00Z"
+  },
+  {
+    "id": 16,
+    "name": "Model 16",
+    "description": "A unique 3D model featuring screwdriver.",
+    "likes": 545,
+    "image": "https://picsum.photos/seed/screwdriver/300",
+    "category": "tools",
+    "dateAdded": "2024-04-18T10:00:00Z"
+  },
+  {
+    "id": 17,
+    "name": "Model 17",
+    "description": "A unique 3D model featuring dragon-miniature.",
+    "likes": 568,
+    "image": "https://picsum.photos/seed/dragon-miniature/300",
+    "category": "miniatures",
+    "dateAdded": "2024-05-21T10:00:00Z"
+  },
+  {
+    "id": 18,
+    "name": "Model 18",
+    "description": "A unique 3D model featuring earrings.",
+    "likes": 591,
+    "image": "https://picsum.photos/seed/earrings/300",
+    "category": "fashion",
+    "dateAdded": "2024-06-24T10:00:00Z"
+  },
+  {
+    "id": 19,
+    "name": "Model 19",
+    "description": "A unique 3D model featuring cooling.",
+    "likes": 614,
+    "image": "https://picsum.photos/seed/cooling/300",
+    "category": "3d-printer",
+    "dateAdded": "2024-07-27T10:00:00Z"
+  },
+  {
+    "id": 20,
+    "name": "Model 20",
+    "description": "A unique 3D model featuring birdhouse.",
+    "likes": 637,
+    "image": "https://picsum.photos/seed/birdhouse/300",
+    "category": "hobby-diy",
+    "dateAdded": "2024-08-02T10:00:00Z"
+  },
+  {
+    "id": 21,
+    "name": "Model 21",
+    "description": "A unique 3D model featuring vase.",
+    "likes": 660,
+    "image": "https://picsum.photos/seed/vase/300",
+    "category": "toys-games",
+    "dateAdded": "2024-09-05T10:00:00Z"
+  },
+  {
+    "id": 22,
+    "name": "Model 22",
+    "description": "A unique 3D model featuring robot.",
+    "likes": 683,
+    "image": "https://picsum.photos/seed/robot/300",
+    "category": "household",
+    "dateAdded": "2024-10-08T10:00:00Z"
+  },
+  {
+    "id": 23,
+    "name": "Model 23",
+    "description": "A unique 3D model featuring mask.",
+    "likes": 706,
+    "image": "https://picsum.photos/seed/mask/300",
+    "category": "props-cosplay",
+    "dateAdded": "2024-11-11T10:00:00Z"
+  },
+  {
+    "id": 24,
+    "name": "Model 24",
+    "description": "A unique 3D model featuring spaceship.",
+    "likes": 729,
+    "image": "https://picsum.photos/seed/spaceship/300",
+    "category": "education",
+    "dateAdded": "2024-12-14T10:00:00Z"
+  },
+  {
+    "id": 25,
+    "name": "Model 25",
+    "description": "A unique 3D model featuring lamp.",
+    "likes": 752,
+    "image": "https://picsum.photos/seed/lamp/300",
+    "category": "art",
+    "dateAdded": "2024-01-17T10:00:00Z"
+  },
+  {
+    "id": 26,
+    "name": "Model 26",
+    "description": "A unique 3D model featuring chair.",
+    "likes": 775,
+    "image": "https://picsum.photos/seed/chair/300",
+    "category": "tools",
+    "dateAdded": "2024-02-20T10:00:00Z"
+  },
+  {
+    "id": 27,
+    "name": "Model 27",
+    "description": "A unique 3D model featuring pendant.",
+    "likes": 798,
+    "image": "https://picsum.photos/seed/pendant/300",
+    "category": "miniatures",
+    "dateAdded": "2024-03-23T10:00:00Z"
+  },
+  {
+    "id": 28,
+    "name": "Model 28",
+    "description": "A unique 3D model featuring toy.",
+    "likes": 821,
+    "image": "https://picsum.photos/seed/toy/300",
+    "category": "fashion",
+    "dateAdded": "2024-04-26T10:00:00Z"
+  },
+  {
+    "id": 29,
+    "name": "Model 29",
+    "description": "A unique 3D model featuring sculpture.",
+    "likes": 844,
+    "image": "https://picsum.photos/seed/sculpture/300",
+    "category": "3d-printer",
+    "dateAdded": "2024-05-01T10:00:00Z"
+  },
+  {
+    "id": 30,
+    "name": "Model 30",
+    "description": "A unique 3D model featuring keychain.",
+    "likes": 867,
+    "image": "https://picsum.photos/seed/keychain/300",
+    "category": "hobby-diy",
+    "dateAdded": "2024-06-04T10:00:00Z"
+  },
+  {
+    "id": 31,
+    "name": "Model 31",
+    "description": "A unique 3D model featuring container.",
+    "likes": 890,
+    "image": "https://picsum.photos/seed/container/300",
+    "category": "toys-games",
+    "dateAdded": "2024-07-07T10:00:00Z"
+  },
+  {
+    "id": 32,
+    "name": "Model 32",
+    "description": "A unique 3D model featuring flowerpot.",
+    "likes": 913,
+    "image": "https://picsum.photos/seed/flowerpot/300",
+    "category": "household",
+    "dateAdded": "2024-08-10T10:00:00Z"
+  },
+  {
+    "id": 33,
+    "name": "Model 33",
+    "description": "A unique 3D model featuring dice.",
+    "likes": 936,
+    "image": "https://picsum.photos/seed/dice/300",
+    "category": "props-cosplay",
+    "dateAdded": "2024-09-13T10:00:00Z"
+  },
+  {
+    "id": 34,
+    "name": "Model 34",
+    "description": "A unique 3D model featuring ring.",
+    "likes": 959,
+    "image": "https://picsum.photos/seed/ring/300",
+    "category": "education",
+    "dateAdded": "2024-10-16T10:00:00Z"
+  },
+  {
+    "id": 35,
+    "name": "Model 35",
+    "description": "A unique 3D model featuring car.",
+    "likes": 982,
+    "image": "https://picsum.photos/seed/car/300",
+    "category": "art",
+    "dateAdded": "2024-11-19T10:00:00Z"
+  },
+  {
+    "id": 36,
+    "name": "Model 36",
+    "description": "A unique 3D model featuring castle.",
+    "likes": 1005,
+    "image": "https://picsum.photos/seed/castle/300",
+    "category": "tools",
+    "dateAdded": "2024-12-22T10:00:00Z"
+  },
+  {
+    "id": 37,
+    "name": "Model 37",
+    "description": "A unique 3D model featuring camera.",
+    "likes": 1028,
+    "image": "https://picsum.photos/seed/camera/300",
+    "category": "miniatures",
+    "dateAdded": "2024-01-25T10:00:00Z"
+  },
+  {
+    "id": 38,
+    "name": "Model 38",
+    "description": "A unique 3D model featuring boat.",
+    "likes": 1051,
+    "image": "https://picsum.photos/seed/boat/300",
+    "category": "fashion",
+    "dateAdded": "2024-02-28T10:00:00Z"
+  },
+  {
+    "id": 39,
+    "name": "Model 39",
+    "description": "A unique 3D model featuring airplane.",
+    "likes": 1074,
+    "image": "https://picsum.photos/seed/airplane/300",
+    "category": "3d-printer",
+    "dateAdded": "2024-03-03T10:00:00Z"
+  },
+  {
+    "id": 40,
+    "name": "Model 40",
+    "description": "A unique 3D model featuring helmet-prop.",
+    "likes": 1097,
+    "image": "https://picsum.photos/seed/helmet-prop/300",
+    "category": "hobby-diy",
+    "dateAdded": "2024-04-06T10:00:00Z"
+  },
+  {
+    "id": 41,
+    "name": "Model 41",
+    "description": "A unique 3D model featuring bottle.",
+    "likes": 1120,
+    "image": "https://picsum.photos/seed/bottle/300",
+    "category": "toys-games",
+    "dateAdded": "2024-05-09T10:00:00Z"
+  },
+  {
+    "id": 42,
+    "name": "Model 42",
+    "description": "A unique 3D model featuring art-piece.",
+    "likes": 1143,
+    "image": "https://picsum.photos/seed/art-piece/300",
+    "category": "household",
+    "dateAdded": "2024-06-12T10:00:00Z"
+  },
+  {
+    "id": 43,
+    "name": "Model 43",
+    "description": "A unique 3D model featuring stand.",
+    "likes": 1166,
+    "image": "https://picsum.photos/seed/stand/300",
+    "category": "props-cosplay",
+    "dateAdded": "2024-07-15T10:00:00Z"
+  },
+  {
+    "id": 44,
+    "name": "Model 44",
+    "description": "A unique 3D model featuring shelf.",
+    "likes": 1189,
+    "image": "https://picsum.photos/seed/shelf/300",
+    "category": "education",
+    "dateAdded": "2024-08-18T10:00:00Z"
+  },
+  {
+    "id": 45,
+    "name": "Model 45",
+    "description": "A unique 3D model featuring animal.",
+    "likes": 1212,
+    "image": "https://picsum.photos/seed/animal/300",
+    "category": "art",
+    "dateAdded": "2024-09-21T10:00:00Z"
+  },
+  {
+    "id": 46,
+    "name": "Model 46",
+    "description": "A unique 3D model featuring house.",
+    "likes": 1235,
+    "image": "https://picsum.photos/seed/house/300",
+    "category": "tools",
+    "dateAdded": "2024-10-24T10:00:00Z"
+  },
+  {
+    "id": 47,
+    "name": "Model 47",
+    "description": "A unique 3D model featuring gear.",
+    "likes": 1258,
+    "image": "https://picsum.photos/seed/gear/300",
+    "category": "miniatures",
+    "dateAdded": "2024-11-27T10:00:00Z"
+  },
+  {
+    "id": 48,
+    "name": "Model 48",
+    "description": "A unique 3D model featuring machine.",
+    "likes": 1281,
+    "image": "https://picsum.photos/seed/machine/300",
+    "category": "fashion",
+    "dateAdded": "2024-12-02T10:00:00Z"
+  },
+  {
+    "id": 49,
+    "name": "Model 49",
+    "description": "A unique 3D model featuring cube.",
+    "likes": 1304,
+    "image": "https://picsum.photos/seed/cube/300",
+    "category": "3d-printer",
+    "dateAdded": "2024-01-05T10:00:00Z"
+  },
+  {
+    "id": 50,
+    "name": "Model 50",
+    "description": "A unique 3D model featuring figure.",
+    "likes": 1327,
+    "image": "https://picsum.photos/seed/figure/300",
+    "category": "hobby-diy",
+    "dateAdded": "2024-02-08T10:00:00Z"
+  },
+  {
+    "id": 51,
+    "name": "Model 51",
+    "description": "A unique 3D model featuring watch.",
+    "likes": 1350,
+    "image": "https://picsum.photos/seed/watch/300",
+    "category": "toys-games",
+    "dateAdded": "2024-03-11T10:00:00Z"
+  },
+  {
+    "id": 52,
+    "name": "Model 52",
+    "description": "A unique 3D model featuring bridge.",
+    "likes": 1373,
+    "image": "https://picsum.photos/seed/bridge/300",
+    "category": "household",
+    "dateAdded": "2024-04-14T10:00:00Z"
+  }
 ]
