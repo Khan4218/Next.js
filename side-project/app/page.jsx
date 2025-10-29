@@ -1,3 +1,4 @@
+import Form from "next/form"
 async function getCatFacts() {
     const response = await fetch("https://catfact.ninja/facts")
     const data = await response.json()
@@ -16,7 +17,7 @@ export default async function Home({ searchParams }) {
         <div className="page">
             <main className="main">
                 <h1>🐈‍⬛ Cat Facts 🐈</h1>
-                <form className="search-form">
+                <Form action="/" className="search-form">
                     <label htmlFor="cat-fact-query" className="sr-only">
                         Search cat facts
                     </label>
@@ -29,7 +30,7 @@ export default async function Home({ searchParams }) {
                         autoComplete="off"
                         defaultValue={query}
                     />
-                </form>
+                </Form>
                 <div className="facts-list">
                     {filteredFacts.map((fact, index) => (
                         <div key={index} className="fact-card">
